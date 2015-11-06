@@ -6,8 +6,8 @@ this is not the end
 Umgebung
 ---------
 
-V8 JavaScript Engine von Google (weiter JavaScript Engines_)
-ECMA-262_ das heißt Version 5.1 des Sprachstandards
+V8 JavaScript Engine von Google (weiter JavaScript [Engines][3])
+[ES5][5] das heißt Version 5.1 des Sprachstandards
 
 Damit das Sandel auch spaß macht
 ```bash
@@ -260,9 +260,9 @@ bring Crock to perl land
 
 CYA
 
-.. _V8-Wüste: http://code.google.com/p/v8/
-.. _v8_commands: http://www.sandeepdatta.com/2011/10/using-v8-javascript-shell-d8.html
-.. _Engines: http://en.wikipedia.org/wiki/List_of_ECMAScript_engines
-.. _ES5: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[1]: http://code.google.com/p/v8/ "V8"
+[2]: http://www.sandeepdatta.com/2011/10/using-v8-javascript-shell-d8.html "V8 Commands"
+[3]: http://en.wikipedia.org/wiki/List_of_ECMAScript_engines "JavaScript Engines"
+[4]: http://www.ecma-international.org/publications/standards/Ecma-262.htm "ES5"
 
 
