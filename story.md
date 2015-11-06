@@ -27,7 +27,7 @@ Die Sonne scheint. Crock sitz in seinem Auto. Wind weht durch seine Barthaare un
 
 Überleben in der Wüste für Fortgeschrittene. Such die Spuren eines verwirrten Kamels. 
 
-Lasst uns in die Wüste gehen und schauen was für große Abenteuer uns erwarten, oder halt auch nicht! Führe d8 auf der Konsole aus und tauche ab in das große Sandelabenteuer das weder feucht und auch nicht fröhlich ist.
+Lasst uns in die Wüste gehen und schauen was für große Abenteuer uns erwarten, oder halt auch nicht! Führe d8 auf der Konsole aus und tauche ab in das große Sandelabenteuer das weder feucht noch fröhlich ist.
 
 ```javascript
 # d8
@@ -181,7 +181,8 @@ d8> dune.behind = function () {
 d8> dune.behind()
 empty
 ```
-*lass das*
+
+Mach dir keine Hoffnungen!
 
 Durch Panik getrieben rennen wir mit letzten Kräften richtung Nord. Norden bedeutet kälte, außer man befindet sich auf der unternhälfter der Südehalbkugel, oder ist zu Fuß in der Wüste unterwegs. Nach unglaublichen langen Sekunden brechen wir zusammen, überlassen uns wimmernt dem Tod, soll er doch kommen! Fieberträume bringen uns Bilder von schönen Frauen
 
@@ -226,9 +227,9 @@ d8> Spider = function () {
   return Object.create(theSpider)
 }
 d8> spider = new Spider()
-d8> me.toxic = "0%, insted it gives me a beer"
+d8> me.toxic = "0%, insted it gives him a beer"
 d8> spider.kills.apply(me)
-the spider kills Crock to 0%, insted it gives me a beer
+the spider kills Crock to 0%, insted it gives him a beer
 ```
 Spinne am Arsch! Es lebe die Dynamik.
 
@@ -244,6 +245,20 @@ d8> spider.status
 tasty, full and cool beer!
 ```
 
+Gelernt ist gelernt! Das ist auch schon das verirrte Kamel
+
+```javascript
+d8> desert.lostCamel = {
+  ride: function () {
+    person = arguments[0];
+    print("bring "+ person.me +" to perl land");
+  }
+}
+d8> lostCamel.ride(me)
+bring Crock to perl land
+```
+
+CYA
 
 .. _V8-Wüste: http://code.google.com/p/v8/
 .. _v8_commands: http://www.sandeepdatta.com/2011/10/using-v8-javascript-shell-d8.html
