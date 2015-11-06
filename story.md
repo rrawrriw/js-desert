@@ -64,7 +64,7 @@ false
 ```
 *Verdammt, wirklich kein Bier? Jetzt mal mit Ernst!*
 
-Erlösen sollt ihr sein lassen es soll Bier entstehen.
+Erlösen sollt ihr sein, es soll Bier entstehen.
 
 ```javascript
 js> var beer = Object.create(Object, {
@@ -85,6 +85,7 @@ js> beer.status;
 "empty"
 ```
 *so gemein*
+
 Schmollend zeihen wir uns hinter die nächste Düne zurück.
 
 ```javascript
@@ -105,8 +106,6 @@ Mach dir keine Hoffnungen!
 Durch Panik getrieben rennen wir mit letzten Kräften richtung Nord. Norden bedeutet kälte, außer man befindet sich auf der untern Hälfte der Südehalbkugel, oder ist zu Fuß in der Wüste unterwegs. Nach unglaublichen langen Sekunden brechen wir zusammen, überlassen uns wimmernt dem Tod, soll er doch kommen! Fieberträume bringen uns Bilder von schönen Frauen.
 
 ```javascript
-js> dream()
-beauty is cuddleing undefined
 js> dream = function () {
   print('beauty is cuddling', this.me)
 }
@@ -117,8 +116,6 @@ beauty is cuddling undefined
 *Halt das ist mein Traum*
 
 ```javascript
-js> dream()
-beauty is cuddling undefined
 js> me = {
   me: "Crock"
 };
@@ -127,6 +124,7 @@ js> dream.apply(me)
 beauty is cuddling Crock
 ```
 *Schon besser*
+
 Doch bekanntlich holt einen die Realität schneller ein als gewünscht.
 
 ```javascript
@@ -155,7 +153,8 @@ js> spider.kills.apply(me)
 the spider kills Crock to 0%, instead brings him a beer
 ```
 *Spinne am Arsch! Es lebe die Dynamik.*
-Wie von Blitz getroffen fällte es uns ein hatte wir nicht gelesen das Forscher herausgefunden hatten das die Urspinne einen Gendefekt hatte welcher dazu führt bei Berührung der Achillesferse verwandelt sich die Spinne spontan in eine Flasche Bier.
+
+Wie von Blitz getroffen fällte es uns ein hatte wir nicht gelesen das Forscher herausgefunden hatten das die Urspinne einen Gendefekt hatte. Dieser Gendefekt führt bei Berührung der Achillesferse dazu das sich die Spinne spontan in eine Flasche Bier verwandelt.
 ```javascript
 js> theSpider.achillesheel = function () {
   this.status = "tasty, full and cool beer!"
@@ -169,17 +168,15 @@ js> spider.status
 ```
 Gelernt ist gelernt! Das ist auch schon das verwirrte Kamel
 ```javascript
-js> spider.status
-"tasty, full and cool beer!"
 js> desert.lostCamel = {
   ride: function () {
     person = arguments[0];
     print("bring "+ person.me +" to perl land");
   }
 }
-({ride:(function () {person = arguments[0];print("bring " + person.me + " to perl land");})})
+({ride:(function () {person = arguments[0];print("bring " + person.me + " to Perlland");})})
 js> lostCamel.ride(me)
-bring Crock to perl land
+bring Crock to Perlland
 ```
 Good Bye Partner!
 
