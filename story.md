@@ -24,7 +24,7 @@ Die Sonne scheint. Crock sitz in seinem Auto. Wind weht durch seine Barthaare un
 
 Überleben in der Wüste für Fortgeschrittene. Such die Spuren eines verwirrten Kamels. 
 
-Lasst uns in die Wüste gehen und schauen was für große Abenteuer uns erwarten. Führe d8 auf der Konsole aus und tauche ab in das große Sandelabenteuer das weder feucht noch fröhlich ist.
+Lasst uns in die Wüste gehen und schauen was für große Abenteuer uns erwarten. Führe js auf der Konsole aus und tauche ab in das große Sandelabenteuer das weder feucht noch fröhlich ist.
 
 ```javascript
 js> load('desert.js');
@@ -43,13 +43,13 @@ Sandel, sandel.
 js>  print("funky!");
 ```
 
-Die unbeteiligte Stimme aus dem OFF kann sich vorstellen dass, falls ihr noch nicht verdurstet seit, das die folgende Frage schwer auf euren Schultern lastet. "Zur Hölle was machen Objekte wie desert und sand in der standard Umgebung?". Diese Objekte haben wir uns eingefangen als wir desert.js geladen hatten. 
+Die unbeteiligte Stimme aus dem OFF kann sich vorstellen dass, falls ihr noch nicht verdurstet seit, die folgende Frage schwer auf euren Schultern lastet. "Zur Hölle was machen Objekte wie desert und sand in der standard Umgebung?". Diese Objekte haben wir uns eingefangen als wir desert.js geladen hatten. 
 
 ```javascript
 desert = this;
 ```
 
-*Solangsam ist das hier alles nicht mehr Lustig ich habe Durst!*
+*Solangsam ist das hier alles nicht mehr lustig ich habe durst!*
 
 ```javascript
 js> beer
@@ -64,7 +64,7 @@ false
 ```
 *Verdammt, wirklich kein Bier? Jetzt mal mit Ernst!*
 
-Erlösen sollt ihr sein, es soll Bier entstehen.
+Erlöst sollt ihr sein, es soll Bier entstehen.
 
 ```javascript
 js> var beer = Object.create(Object, {
@@ -154,7 +154,7 @@ the spider kills Crock to 0%, instead brings him a beer
 ```
 *Spinne am Arsch! Es lebe die Dynamik.*
 
-Wie von Blitz getroffen fällte es uns ein hatte wir nicht gelesen das Forscher herausgefunden hatten das die Urspinne einen Gendefekt hatte. Dieser Gendefekt führt bei Berührung der Achillesferse dazu das sich die Spinne spontan in eine Flasche Bier verwandelt.
+Wie von Blitz getroffen fällt es uns ein hatte wir nicht gelesen das Forscher herausgefunden hatten das die Urspinne einen Gendefekt hatte. Dieser Gendefekt führt bei Berührung der Achillesferse dazu das sich die Spinne spontan in eine Flasche Bier verwandelt.
 ```javascript
 js> theSpider.achillesheel = function () {
   this.status = "tasty, full and cool beer!"
@@ -171,7 +171,7 @@ Gelernt ist gelernt! Das ist auch schon das verwirrte Kamel
 js> desert.lostCamel = {
   ride: function () {
     person = arguments[0];
-    print("bring "+ person.me +" to perl land");
+    print("bring "+ person.me +" to Perlland");
   }
 }
 ({ride:(function () {person = arguments[0];print("bring " + person.me + " to Perlland");})})
